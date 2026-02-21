@@ -13,7 +13,8 @@
       ansible.builtin.copy:
         dest: /etc/test-1-crimsbio-critical-app/config.conf
         content: |
-          CRITICAL_SETTING=true
+          CRITICAL_SETTING=false
+          ADDTNL_CRITICAL_SETTING=true
         owner: root
         group: root
         mode: '0644'
