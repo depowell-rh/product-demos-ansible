@@ -17,6 +17,6 @@
       ansible.builtin.debug:
         var: shell_output.stdout_lines
 
-    - name: Print message
-      ansible.builtin.debug:
-        msg: You should really consider converting this script to a playbook!
+    #- name: Print message
+      #ansible.builtin.debug:
+        #msg: You should really consider converting this script to a playbook!
